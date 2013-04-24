@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+@class MoTiPickerController;
 
-@interface MoTiViewController : UIViewController
+@interface MoTiViewController : UIViewController <UIImagePickerControllerDelegate,UINavigationControllerDelegate>
+
+@property (nonatomic, strong) MoTiPickerController *picker;
 
 @end

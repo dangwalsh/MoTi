@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B5692FCD17287632007CAE24 /* MoTiUnderlayController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5692FCC17287632007CAE24 /* MoTiUnderlayController.m */; };
 		B58EABAC1728282E00B270E6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B58EABAB1728282E00B270E6 /* UIKit.framework */; };
 		B58EABAE1728282E00B270E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B58EABAD1728282E00B270E6 /* Foundation.framework */; };
 		B58EABB01728282E00B270E6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B58EABAF1728282E00B270E6 /* CoreGraphics.framework */; };
@@ -24,6 +25,9 @@
 		B58EABD51728282E00B270E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B58EABAD1728282E00B270E6 /* Foundation.framework */; };
 		B58EABDD1728282E00B270E6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B58EABDB1728282E00B270E6 /* InfoPlist.strings */; };
 		B58EABE01728282E00B270E6 /* MoTiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B58EABDF1728282E00B270E6 /* MoTiTests.m */; };
+		B58EABEB1728414100B270E6 /* MoTiLeft.m in Sources */ = {isa = PBXBuildFile; fileRef = B58EABEA1728414100B270E6 /* MoTiLeft.m */; };
+		B58EABF11728418400B270E6 /* MoTiTop.m in Sources */ = {isa = PBXBuildFile; fileRef = B58EABF01728418400B270E6 /* MoTiTop.m */; };
+		B58EABF717284E2F00B270E6 /* MoTiPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = B58EABF617284E2F00B270E6 /* MoTiPickerController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B5692FCB17287632007CAE24 /* MoTiUnderlayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoTiUnderlayController.h; sourceTree = "<group>"; };
+		B5692FCC17287632007CAE24 /* MoTiUnderlayController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoTiUnderlayController.m; sourceTree = "<group>"; };
 		B58EABA81728282E00B270E6 /* MoTi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoTi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B58EABAB1728282E00B270E6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B58EABAD1728282E00B270E6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -60,6 +66,12 @@
 		B58EABDC1728282E00B270E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B58EABDE1728282E00B270E6 /* MoTiTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoTiTests.h; sourceTree = "<group>"; };
 		B58EABDF1728282E00B270E6 /* MoTiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoTiTests.m; sourceTree = "<group>"; };
+		B58EABE91728414100B270E6 /* MoTiLeft.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoTiLeft.h; sourceTree = "<group>"; };
+		B58EABEA1728414100B270E6 /* MoTiLeft.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoTiLeft.m; sourceTree = "<group>"; };
+		B58EABEF1728418400B270E6 /* MoTiTop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoTiTop.h; sourceTree = "<group>"; };
+		B58EABF01728418400B270E6 /* MoTiTop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoTiTop.m; sourceTree = "<group>"; };
+		B58EABF517284E2F00B270E6 /* MoTiPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoTiPickerController.h; sourceTree = "<group>"; };
+		B58EABF617284E2F00B270E6 /* MoTiPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoTiPickerController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,10 +131,16 @@
 		B58EABB11728282E00B270E6 /* MoTi */ = {
 			isa = PBXGroup;
 			children = (
+				B5692FCB17287632007CAE24 /* MoTiUnderlayController.h */,
+				B5692FCC17287632007CAE24 /* MoTiUnderlayController.m */,
+				B58EABF517284E2F00B270E6 /* MoTiPickerController.h */,
+				B58EABF617284E2F00B270E6 /* MoTiPickerController.m */,
+				B58EABEF1728418400B270E6 /* MoTiTop.h */,
+				B58EABF01728418400B270E6 /* MoTiTop.m */,
+				B58EABE91728414100B270E6 /* MoTiLeft.h */,
+				B58EABEA1728414100B270E6 /* MoTiLeft.m */,
 				B58EABBA1728282E00B270E6 /* MoTiAppDelegate.h */,
 				B58EABBB1728282E00B270E6 /* MoTiAppDelegate.m */,
-				B58EABC31728282E00B270E6 /* MainStoryboard_iPhone.storyboard */,
-				B58EABC61728282E00B270E6 /* MainStoryboard_iPad.storyboard */,
 				B58EABC91728282E00B270E6 /* MoTiViewController.h */,
 				B58EABCA1728282E00B270E6 /* MoTiViewController.m */,
 				B58EABB21728282E00B270E6 /* Supporting Files */,
@@ -133,6 +151,8 @@
 		B58EABB21728282E00B270E6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B58EABC31728282E00B270E6 /* MainStoryboard_iPhone.storyboard */,
+				B58EABC61728282E00B270E6 /* MainStoryboard_iPad.storyboard */,
 				B58EABB31728282E00B270E6 /* MoTi-Info.plist */,
 				B58EABB41728282E00B270E6 /* InfoPlist.strings */,
 				B58EABB71728282E00B270E6 /* main.m */,
@@ -278,6 +298,10 @@
 				B58EABB81728282E00B270E6 /* main.m in Sources */,
 				B58EABBC1728282E00B270E6 /* MoTiAppDelegate.m in Sources */,
 				B58EABCB1728282E00B270E6 /* MoTiViewController.m in Sources */,
+				B58EABEB1728414100B270E6 /* MoTiLeft.m in Sources */,
+				B58EABF11728418400B270E6 /* MoTiTop.m in Sources */,
+				B58EABF717284E2F00B270E6 /* MoTiPickerController.m in Sources */,
+				B5692FCD17287632007CAE24 /* MoTiUnderlayController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -468,6 +492,7 @@
 				B58EABE51728282E00B270E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B58EABE61728282E00B270E6 /* Build configuration list for PBXNativeTarget "MoTiTests" */ = {
 			isa = XCConfigurationList;
@@ -476,6 +501,7 @@
 				B58EABE81728282E00B270E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
